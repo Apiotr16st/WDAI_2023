@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;    
+}
+h1{
+    font-size: 1.8em;
+    line-height: 2;
+}
+h3{
+    line-height: 2;
+}
+p{
+    margin: 0.3em 0;
+    line-height: 1.5;
+    font-size: 1em;
+}
+body {
+    background-color: #191414;
+    padding: 0.7em;
+}
+header, 
+footer {
+    font-size: 2em;
+    text-align: center;
+    padding: 0.3em;
+    background-color: #454545;
+}
+footer {
+    font-size: 1em;
+    padding: 1em;
+}
+nav {
+    background-color: #1db954;
+}
+nav li {
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+    padding:  1.2em 0.8em;
+}
+nav li:hover {
+    background-color: #62d48a;
+    cursor: pointer;
+}
+section {
+    display: flex;
+    flex-direction: row;
+    padding: 0.7em 0;
+    min-height: 588px;
+}
+.text {
+    background-color: #242323;
+    flex: 6;
+}
+.main {
+    background-color: #242323;
+    padding: 0.7em;
+    margin: 0 0.7em;
+    flex: 8;
+}
+#img1, 
+#img2, 
+#img3, 
+#img4{
+    max-width: 100%;
+    max-height: 100%;
+}
+aside {
+    background-color: rgb(130, 130, 130);
+    padding: 0.5em;
+    flex: 3;
+    display: flex;
+}
+#contact-form{
+    width: 100%;
+}
+.form-group {
+    margin-top: 1em;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 0.5em;
+    color: black;
+    box-sizing: border-box;
+    resize: none;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 1em;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+@media screen and (max-width: 1000px) {
+    section {
+        flex-wrap: wrap;
+        height: auto;
+    }
+    nav {
+        flex: auto;
+    }
+    .main {
+        flex: auto;
+        margin: 0.7em 0;
+    }
+    aside{
+        flex: auto;
+    }
+    input[type="checkbox"]{
+        width: 16px;
+        height: 16px;
+    }
+}
