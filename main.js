@@ -9,14 +9,14 @@ function hearts(x) {
   let xs = 3 - x;
   for (let i = 0; i < x; i++) {
     let full_h = document.createElement('img');
-    full_h.src = 'images/full_heart.png';
+    full_h.src = 'full_heart.png';
     full_h.id = 'heart';
     cos.appendChild(full_h);
   }
 
   for (let i = 0; i < xs; i++) {
     let empty_h = document.createElement('img');
-    empty_h.src = 'images/empty_heart.png';
+    empty_h.src = 'empty_heart.png';
     empty_h.id = 'heart';
     cos.appendChild(empty_h);
   }
