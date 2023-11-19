@@ -1,5 +1,5 @@
 *{
-  cursor:url(images/aimok.png),auto;
+  cursor:url(aimok.png),auto;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -8,7 +8,7 @@
 
 #plate{
   background-color: black;
-  background-image: url(images/board-bg.jpg);
+  background-image: url(board-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 800px;
@@ -55,7 +55,7 @@
 #zombie {
   width: 200px;
   height: 312px;
-  background: url(images/walkingdead.png);
+  background: url(walkingdead.png);
   position: absolute;
   left: 110%;
   bottom: 100px;
