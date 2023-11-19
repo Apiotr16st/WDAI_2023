@@ -10,7 +10,7 @@
   background-color: black;
   background-image: url(board-bg.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
+/*  background-repeat: no-repeat;*/
   height: 800px;
   width: 100%;
 }
